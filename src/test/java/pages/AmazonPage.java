@@ -9,6 +9,8 @@ public class AmazonPage {
     public AmazonPage(){
         PageFactory.initElements(Driver.getDriver(),this);
     }
+    @FindBy (xpath = "//*[@id='nav-link-accountList']")
+    public  WebElement topSignIn;
     @FindBy(id="twotabsearchtextbox")
     public WebElement aramaKutusu;
 
