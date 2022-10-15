@@ -1,4 +1,5 @@
 Feature: US1005 User can't login blueCars with wrong credentials
+  @gr2
   Scenario: TC5 User tries to login with wrong username and password
     Given User goes to BlueCars website
     Then User clicks on login button

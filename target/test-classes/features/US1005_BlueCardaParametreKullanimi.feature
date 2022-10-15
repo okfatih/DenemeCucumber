@@ -1,5 +1,5 @@
 Feature: US1005 User employs parameters
-  @parametre
+  @gr2
   Scenario: TC6 User can login with a parameter
     Given User goes to "blueCars" website
     Then  User clicks on login button

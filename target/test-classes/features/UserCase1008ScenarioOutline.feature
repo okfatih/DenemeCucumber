@@ -26,9 +26,9 @@ Feature:US1008 DataTables sitesine 5 farkli giris yapalim
     And User closes webpage
 
     Examples:
-    |firstName|lastName|position|office|extension|start-Date|salary|
-    |Alim     |Alim    |qa     |ankara | UI        |2022-10-11|10000|
-    |Berk     |Kacmaz  |BA     |Berlin |api        |2022-05-11 |50000|
-    |Can      |Remzi   |BA     |Bayburt|Java       |2022-12-11 |12000|
-    |Rasim    |Kacan   |Sale   |Rio |Backend    |2023-10-11 |40000|
-    |Masnim   |Dorf    |Tale   |Nince |Devops    |2021-07-13 |70000|
+      | firstName | lastName | position | office  | extension | start-Date | salary |
+      | Alim      | Alim     | qa       | ankara  | UI        | 2022-10-11 | 10000  |
+      | Berk      | Kacmaz   | BA       | Berlin  | api       | 2022-05-11 | 50000  |
+      | Can       | Remzi    | BA       | Bayburt | Java      | 2022-12-11 | 12000  |
+      | Rasim     | Kacan    | Sale     | Rio     | Backend   | 2023-10-11 | 40000  |
+      | Masnim    | Dorf     | Tale     | Nince   | Devops    | 2021-07-13 | 70000  |
