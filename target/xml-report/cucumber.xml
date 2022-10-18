@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="16.126">
-    <testcase classname="US0013 Parametre Kullanimş" name="TC01 Parametre Kullanimi" time="15.692">
-        <failure message="" type="java.lang.AssertionError"><![CDATA[Given User goes to "amazonUrl"..............................................passed
-Then User waits for 2 seconds...............................................passed
-Then User searches for Nutella..............................................passed
-And User verifies that search results include "HamPetrol"...................failed
-
-StackTrace:
-java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepDefinitions.AmazonSearchStepDefinitions.user_verifies_that_search_results_include(AmazonSearchStepDefinitions.java:44)
-	at ✽.User verifies that search results include "HamPetrol"(file:///C:/Users/Admin/IdeaProjects/demo/CucumberDeneme/src/test/resources/features/US013_TrendYolSayfasindaHataAlma.feature:7)
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.69">
+    <testcase classname="Form doldurma" name="Practice form doldurma" time="0.058">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given Kullanici "https://testpages.herokuapp.com/styled/basic-html-form-test.html" adresine gider.undefined
+When username "kullanici adi" password "sifre" ve textarea "metin alani" kisimlarini doldurur.skipped
+And bir dosya yukler........................................................skipped
+And checkbox1 i secer.......................................................skipped
+And radio2 yi secer.........................................................skipped
+And selection item3 secer...................................................skipped
+And dropdown itmem4 secer...................................................skipped
+And submite tiklar..........................................................skipped
+Then dosyanin yuklendigini dogrular.........................................skipped
 ]]></failure>
     </testcase>
 </testsuite>
