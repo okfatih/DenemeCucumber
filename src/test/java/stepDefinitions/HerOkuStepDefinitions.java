@@ -38,7 +38,7 @@ heroku.AddRemoveElements.click();
 
     @And("User validates the visibility of Delete Button")
     public void userValidatesTheVisibilityOfDeleteButton() {
-        assert !heroku.deleteButtonu.isDisplayed();
+        assert heroku.deleteButtonu.isDisplayed();
     }
 
     @Then("User clicks on Delete button")

@@ -23,4 +23,7 @@ public class MedunnaPage {
 
     @FindBy (xpath = "(//*[text()='Sign in'])[3]")
     public WebElement signIn2;
+
+    @FindBy (xpath = "//*[contains(text(), 'Authentication information not correct.')]")
+    public WebElement popUpMessage;
 }
